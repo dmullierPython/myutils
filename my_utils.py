@@ -22,6 +22,9 @@ def area_triangle(base, height):
     area = area_rectangle(base, height)/2
     return area
 
+def fahrenheit_to_celcius(f):
+    return (f - 32) / 2
+
 if __name__ == '__main__':
     print("Area module")
     print("area of a circle with radius of 10 ", area_circle(10))
